@@ -15,37 +15,21 @@ public class Animal {
         this.isCarnivore = isCarnivore;
     }
 
-    //region "Setters & Getters"
+    //region "Getters"
     public String getSpecies() {
         return species;
-    }
-
-    public void setSpecies(String species) {
-        this.species = species;
     }
 
     public String getHabitat() {
         return habitat;
     }
 
-    public void setHabitat(String habitat) {
-        this.habitat = habitat;
-    }
-
     public int getMaxWeight() {
         return maxWeight;
     }
 
-    public void setMaxWeight(int maxWeight) {
-        this.maxWeight = maxWeight;
-    }
-
     public boolean isEndangered() {
         return isEndangered;
-    }
-
-    public void setEndangered(boolean endangered) {
-        isEndangered = endangered;
     }
     //endregion
 
